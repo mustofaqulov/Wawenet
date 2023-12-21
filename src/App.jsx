@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer/Footer";
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <Footer/>;
 }
