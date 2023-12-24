@@ -1,6 +1,7 @@
 import classNames from "classnames"
 import style from './input.module.scss'
-function Input({title, icon, type}) {
+function Input(props) {
+   const {title, icon, type} = props
    return (
       <div className={classNames(style['input-content'])}>
          <input 
@@ -10,10 +11,9 @@ function Input({title, icon, type}) {
             classNames(style.input)
          } 
          />
-         <img 
-         src={icon}
-         alt="right arrow"
-         className={classNames(style['right-arrow'])} />
+         <div className={classNames(style['right-arrow'])}>
+            {icon}
+         </div>
       </div>
    )
 }
