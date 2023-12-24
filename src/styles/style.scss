@@ -1,2 +1,10 @@
 @import './base';
-@import './fonts'
+@import './fonts';
+
+.container{
+  width: 100%;
+  max-width: 1650px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: red;
+}
