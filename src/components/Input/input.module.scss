@@ -1,0 +1,28 @@
+.input-content {
+   max-width: 507px;
+   border: 1px solid var(--Light-Gray, #D5D9E5);
+   background-color: #11112B;
+   display: flex;
+   column-gap: 20px;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 40px;
+   border-radius: 5px;
+   .input{
+      font-family: 'Poppins';
+      flex-grow: 1;
+      background-color: transparent;
+      border: none;
+      padding: 25px 0 25px 30px;
+      outline: none;
+      font-size: 20px;
+      color: white;
+      opacity: 0.5;
+      &::placeholder{
+         color: white;
+      }
+   }
+   .right-arrow{
+      cursor: pointer;
+   }
+}
