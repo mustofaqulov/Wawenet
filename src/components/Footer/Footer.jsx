@@ -32,16 +32,16 @@ export const Footer = () => {
                <ul>
                   <h6>Explore</h6>
                   {
-                     explores.map((explore) => {
-                        return <li>{explore}</li>
+                     explores.map((explore, index) => {
+                        return <li key={ index  }>{explore}</li>
                      })
                   }
                </ul>
                <ul>
                   <h6>Contact</h6>
                   {
-                     contacts.map((explore) => {
-                        return <li>{explore}</li>
+                     contacts.map((explore, index) => {
+                        return <li key={ index }>{explore}</li>
                      })
                   }
                </ul>
