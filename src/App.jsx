@@ -1,10 +1,5 @@
-import { Navbar } from './components/Navbar/Navbar';
-import { Button } from './components/Button/Button';
+import { Footer } from './components/Footer/Footer'
+
 export default function App() {
-  return (
-    <>
-      <Navbar />
-      <Button />
-    </>
-  );
+  return <Navbar />;
 }
