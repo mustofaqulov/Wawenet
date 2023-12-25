@@ -1,7 +1,6 @@
 .input-content {
    max-width: 507px;
    border: 1px solid var(--Light-Gray, #D5D9E5);
-   background-color: #11112B;
    display: flex;
    column-gap: 20px;
    justify-content: space-between;
@@ -11,7 +10,7 @@
    .input{
       font-family: 'Poppins';
       flex-grow: 1;
-      background-color: transparent;
+      background-color: inherit;
       border: none;
       padding: 25px 0 25px 30px;
       outline: none;
@@ -24,5 +23,7 @@
    }
    .right-arrow{
       cursor: pointer;
+      border: none;
+      background-color: inherit;
    }
 }
