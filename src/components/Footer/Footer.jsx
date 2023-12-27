@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styles from './Footer.module.scss'
-import Logo from '../../assets/icons/logo.svg'
+import Logo from '../../assets/icons/logo-darkmode.svg'
 import ArrowIcon from '../../assets/icons/arrow-icon.svg'
 import FacebookIcon from '../../assets/icons/facebook-icon.svg'
 import InstaIcon from '../../assets/icons/insta-icon.svg'
