@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 85px 15px;
-  background: var(--Dark-Blue);
+  background-color: var(--clr-Dark-blue);
   background-image: url(../../assets/images/bg-icon.png);
   background-size: auto;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     li {
-      color: var(----clr-white);
+      color: var(--clr-white);
       font-family: var(--ff-Poppins);
       font-size: var(--heading-sm);
       font-weight: var(--fw-normal);
