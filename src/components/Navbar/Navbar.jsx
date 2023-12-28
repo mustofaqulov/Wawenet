@@ -1,5 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
-import Logo from '../../assets/icons/logo.svg';
+import Logo from '../../assets/icons/logo-darkmode.svg';
 import classNames from 'classnames';
 import style from './navbar.module.scss';
 
