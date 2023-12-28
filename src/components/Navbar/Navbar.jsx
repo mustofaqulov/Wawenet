@@ -1,6 +1,7 @@
-import Logo from '../../assets/icons/logo-darkmode.svg';
+import { Link, NavLink } from 'react-router-dom';
 import classNames from 'classnames';
 import style from './navbar.module.scss';
+import Logo from '../../assets/icons/logo-darkmode.svg';
 
 export function Navbar() {
   const linksData = [
@@ -19,14 +20,16 @@ export function Navbar() {
     { id: 5, text: 'Contact', link: '/Contact' },
   ];
   return (
-    <div
+    <header
       className={classNames(
+        style.header,
         'container',
-        style.navbar,
       )}
     >
       <div className={classNames(style.logo)}>
-        <Logo />
+        <Link to={'/'}>
+          <Logo />
+        </Link>
       </div>
       <ul>
         {linksData.map(({ id, text, link }) => {
@@ -38,6 +41,6 @@ export function Navbar() {
         })}
       </ul>
       <button>SIGN IN</button>
-    </div>
+    </header>
   );
 }
