@@ -1,9 +1,9 @@
 import { Link, NavLink } from 'react-router-dom';
 import classNames from 'classnames';
-import style from './navbar.module.scss';
+import style from './header.module.scss';
 import Logo from '../../assets/icons/logo-darkmode.svg';
 
-export function Navbar() {
+export function Header() {
   const linksData = [
     {
       id: 1,
@@ -27,7 +27,7 @@ export function Navbar() {
       )}
     >
       <div className={classNames(style.logo)}>
-        <Link to={'/'}>
+        <Link to={'/home'}>
           <Logo />
         </Link>
       </div>
