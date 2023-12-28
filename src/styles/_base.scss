@@ -1,73 +1,77 @@
 * {
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-   font-family: var(--ff-Space-Grotesk);
+  font-family: var(--ff-Space-Grotesk);
 
-   ::-webkit-scrollbar {
-      display: none;
-   }
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .container {
-   max-width: 1620px;
-   margin-left: auto;
-   margin-right: auto;
+  max-width: 1620px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
-   display: block;
+  display: block;
 }
 
 a {
-   color: inherit;
-   outline: none;
+  color: inherit;
+  outline: none;
 }
 
 input,
 button,
 textarea {
-   font-family: inherit;
+  font-family: inherit;
 }
-
+button,
+input {
+  background-color: inherit;
+  border: 0;
+}
 button {
-   cursor: pointer;
+  cursor: pointer;
 }
 
 :root {
-   /* ========== Colors ========== */
-   --bg-body: #11112B;
-   --Light-Gray: #D5D9E5;
-   --Light-blue: #92DEED;
-   --FloralWhite: #D9D9D9;
+  /* ========== Colors ========== */
+  --bg-body: #11112b;
+  --Light-Gray: #d5d9e5;
+  --Light-blue: #92deed;
+  --FloralWhite: #d9d9d9;
 
-   --clr-white: #FFFFFF;
-   --clr-Dark-blue: #11112B;
-   --clr-Light-blue: #92DEED;
+  --clr-white: #ffffff;
+  --clr-Dark-blue: #11112b;
+  --clr-Light-blue: #92deed;
 
-   /* ==========Font========== */
+  /* ==========Font========== */
 
-   --ff-Space-Grotesk: 'Space Grotesk', sans-serif;
-   --ff-Poppins: 'Poppins', sans-serif;
+  --ff-Space-Grotesk: 'Space Grotesk', sans-serif;
+  --ff-Poppins: 'Poppins', sans-serif;
 
-   /* ==========Size========== */
+  /* ==========Size========== */
 
-   --heading-2xl: 12.5rem; //200px
-   --heading-xl: 6.25rem; //100px
-   --heading-lg: 3.5rem; //56px
-   --heading-md: 2rem; //32px
-   --heading-sm: 1rem; //16px
+  --heading-2xl: 12.5rem; //200px
+  --heading-xl: 6.25rem; //100px
+  --heading-lg: 3.5rem; //56px
+  --heading-md: 2rem; //32px
+  --heading-sm: 1rem; //16px
 
-   --paragraph-md: 1.5rem; //24px
-   --paragraph-sm: 1.25rem; // 20px
+  --paragraph-md: 1.5rem; //24px
+  --paragraph-sm: 1.25rem; // 20px
 
-   /* ==========Weight========== */
+  /* ==========Weight========== */
 
-   --fw-bold: 700;
-   --fw-semi-bold: 600;
-   --fw-normal: 400;
-   --fw-small: 300;
+  --fw-bold: 700;
+  --fw-semi-bold: 600;
+  --fw-normal: 400;
+  --fw-small: 300;
 }
