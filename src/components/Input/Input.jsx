@@ -11,9 +11,7 @@ function Input(props) {
             classNames(style.input)
          } 
          />
-         <button className={classNames(style['right-arrow'])}>
             {icon}
-         </button>
       </div>
    )
 }
