@@ -8,17 +8,17 @@
    padding-right: 40px;
    border-radius: 5px;
    .input{
-      font-family: 'Poppins';
+      font-family: var(--ff-Poppins);
       flex-grow: 1;
       background-color: inherit;
       border: none;
       padding: 25px 0 25px 30px;
       outline: none;
-      font-size: 20px;
-      color: white;
+      font-size: var(--paragraph-sm);
+      color: var(--clr-white);
       opacity: 0.5;
       &::placeholder{
-         color: white;
+         color: var(--clr-white);
       }
    }
 }
