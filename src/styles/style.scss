@@ -2,7 +2,12 @@
 @import './base';
 @import './fonts';
 
-.container{
+#root {
+  width: 100%;
+  background-color: var(--clr-Dark-blue);
+}
+
+.container {
   width: 100%;
   max-width: 1620px;
   margin: 0 auto;

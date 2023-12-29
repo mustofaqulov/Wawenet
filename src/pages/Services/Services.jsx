@@ -1,5 +1,9 @@
-import './services.module.scss'
+import style from './services.module.scss';
 
 export function Services() {
-  return <h1>Hello I'm Services</h1>;
+  return (
+    <h1 className={style.h1}>
+      Hello I'm Services
+    </h1>
+  );
 }

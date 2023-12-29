@@ -1,4 +1,6 @@
-import './home.module.scss'
+import style from './home.module.scss';
 export function Home() {
-  return <h1>Hello I'm Home</h1>;
+  return (
+    <h1 className={style.h1}>Hello I'm Home</h1>
+  );
 }
