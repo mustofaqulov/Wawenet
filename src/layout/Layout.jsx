@@ -11,7 +11,7 @@ export function Layout({ children }) {
       <main
         className={classNames(
           'main-content',
-          'container',
+          
         )}
       >
         {children}
