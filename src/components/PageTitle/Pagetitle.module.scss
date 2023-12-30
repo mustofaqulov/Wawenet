@@ -1,0 +1,25 @@
+.page-title {
+   background-color: var(--bg-body);
+   color: white;
+
+   &__content {
+      background-image: url(../../assets/images/page-title-bg.svg);
+      background-repeat: no-repeat;
+      background-position: center right;
+      padding: 64px 15px;
+      nav {
+         margin-bottom: 4px;
+         display: flex;
+         gap: 16px;
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 26px;
+      }
+
+      h1 {
+         font-family: var(--ff-Space-Grotesk);
+         font-size: 100px;
+         font-weight: 700;
+      }
+   }
+}
